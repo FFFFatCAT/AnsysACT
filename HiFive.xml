@@ -11,10 +11,11 @@
     <callbacks>
       <oninit>init</oninit>
     </callbacks>
+    <!--    Definition of tool bar-->
     <toolbar name="MyToolBar" caption="MyToolBar">
       <entry name="HiFive" icon="hi">
         <callbacks>
-          <!--connect to the python function ‘ShowMessageBox’-->
+          <!--  Connect to the python function ‘ShowMessageBox’-->
           <onclick>ShowMessageBox</onclick>
         </callbacks>
       </entry>
