@@ -1,0 +1,23 @@
+<!--# Project Name:HiFive-->
+<!--# User:CNLOWAN2-->
+<!--# Author: Louis-PeideWang-->
+<!--# Create Date: 4/22/2021 2:40 PM-->
+
+<extension version="1" name="HiFive">
+  <guid shortid="HF">2cc739d5-9011-400f-ab31-a59e36e5c595</guid>
+  <script src="HiFiveMain.py"/>
+  <interface context="Mechanical">
+    <images>images</images>
+    <callbacks>
+      <oninit>init</oninit>
+    </callbacks>
+    <toolbar name="MyToolBar" caption="MyToolBar">
+      <entry name="HiFive" icon="hi">
+        <callbacks>
+          <!--connect to the python function ‘ShowMessageBox’-->
+          <onclick>ShowMessageBox</onclick>
+        </callbacks>
+      </entry>
+    </toolbar>
+  </interface>
+</extension>
